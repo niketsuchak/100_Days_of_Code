@@ -15,6 +15,14 @@ public:
                     value = profits[i];
                 }
             }
+
+        if (index == -1) {
+                break;
+            }
+            w += value;
+            capitalArray[index] = true;
+        }
+        return w;
             
 
 
