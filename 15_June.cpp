@@ -7,6 +7,17 @@ public:
             return w + 1e9;
         }
 
+        for (int j = 0; j < k; j++) {
+            int index = -1, value = -1;
+            for (int i = 0; i < capital.size(); i++) {
+                if (capital[i] <= w && !capitalArray[i] && profits[i] > value) {
+                    index = i;
+                    value = profits[i];
+                }
+            }
+            
+
+
         
         
     }
