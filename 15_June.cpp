@@ -18,10 +18,7 @@ public:
 
         if (index == -1) {
                 break;
-            }
-            w += value;
-            capitalArray[index] = true;
-        }
+           
         return w;
             
 
