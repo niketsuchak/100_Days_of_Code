@@ -10,6 +10,7 @@ public:
                 if(arr2[i] == arr1[j]){
                     swap(arr1[x] , arr1[j]);
                     x++;
+                    
                 }
             }
         }
